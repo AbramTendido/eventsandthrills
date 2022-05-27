@@ -1,0 +1,32 @@
+{
+    "logo": [{
+        "href": "index.html",
+        "display": "<i class='fas fa-award'></i> Events and Thrills"
+    }],
+    "meni": [{
+            "href": "index.html",
+            "display": "<i class='fas fa-home'></i> Home "
+        },
+        {
+            "href": "locations.html",
+            "display": "<i class='fas fa-location-arrow'></i> Locations"
+        },
+        {
+            "href": "calendar.html",
+            "display": "<i class='fas fa-calendar-day'></i> Schedule"
+        },
+        {
+            "href": "contact.html",
+            "display": "<i class='fas fa-address-book'></i> Contact"
+        },
+        {
+            "href": "orders.html",
+            "display": "<i class='fas fa-ticket-alt'></i> Orders"
+        },
+        {
+            "href": "login.html",
+            "display": "<i class='fas fa-users'></i> Users"
+        }
+    ]
+
+}

@@ -1,0 +1,37 @@
+[{
+        "id": 1,
+        "display": "Family Fun"
+    },
+    {
+        "id": 2,
+        "display": "Sports"
+    },
+    {
+        "id": 3,
+        "display": "Musical"
+    },
+    {
+        "id": 4,
+        "display": "Thrill Rides"
+    },
+    {
+        "id": 5,
+        "display": "Pools and Baths"
+    },
+    {
+        "id": 6,
+        "display": "Horror"
+    },
+    {
+        "id": 7,
+        "display": "Video Games"
+    },
+    {
+        "id": 8,
+        "display": "Theatre"
+    },
+    {
+        "id": 9,
+        "display": "Test None"
+    }
+]

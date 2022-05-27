@@ -1,0 +1,17 @@
+[{
+        "id": 1,
+        "display": "Release date oldest"
+    },
+    {
+        "id": 2,
+        "display": "Release date newest"
+    },
+    {
+        "id": 3,
+        "display": "Shortest duration"
+    },
+    {
+        "id": 4,
+        "display": "Longest duration"
+    }
+]

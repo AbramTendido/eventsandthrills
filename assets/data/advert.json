@@ -1,0 +1,17 @@
+[{
+        "titleStyle": "AD",
+        "titleDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.."
+    },
+    {
+        "titleStyle": "Advertisement",
+        "titleDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "titleStyle": "Commercials",
+        "titleDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.."
+    },
+    {
+        "titleStyle": "Videos",
+        "titleDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.."
+    }
+]

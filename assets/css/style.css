@@ -1,0 +1,1520 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p,
+label,
+textarea,
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2,
+h3 {
+    font-family: 'Arial', sans-serif;
+}
+
+
+/* NavBar */
+
+nav {
+    width: 100%;
+    z-index: 100;
+    background: #F2F1EF;
+    padding: 15px 0px;
+    position: fixed;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navHolder {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+nav #logo a {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+}
+
+nav #links {
+    margin: 10px 0px;
+    transition: .3s ease;
+}
+
+nav #hamburger {
+    display: none;
+}
+
+nav #links a {
+    margin: 0px 15px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+nav #links a:hover {
+    color: #6C7A89;
+}
+
+nav #links .active {
+    font-weight: 600;
+}
+
+
+/* End of Navbar */
+
+
+/* Header */
+
+header {
+    min-height: 75vh;
+    background-image: url('../img/headerBGCool.png');
+    background-size: cover;
+    background-position: bottom;
+}
+
+header #titleStyle {
+    color: #fff;
+    width: 65%;
+    margin: 0px auto;
+    padding-top: 250px;
+    /* margin:auto auto; */
+    font-family: 'Roboto', sans-serif;
+}
+
+header #titleStyle h1 {
+    font-size: 4.8em;
+    margin-bottom: 20px;
+}
+
+header #titleStyle #sortText {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+header #titleStyle p {
+    font-size: 1.5em;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+header #titleStyle #buttonStyle,
+main #otherStyle #otherTextStyle #buttonStyle {
+    text-decoration: none;
+    padding: 15px;
+    width: 150px;
+    background-color: #00a6cf;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+header #titleStyle #buttonStyle i,
+main #otherStyle #otherTextStyle #buttonStyle i {
+    margin-right: 5px;
+}
+
+header #titleStyle #buttonStyle a,
+main #otherStyle #otherTextStyle #buttonStyle a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* End of Header */
+
+
+/* Main Body */
+
+main {
+    color: #fff;
+}
+
+main #about {
+    width: 65%;
+    padding-top: 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main #about #titleDesc {
+    width: 30%;
+}
+
+main #about #titleDesc h2 {
+    font-size: 4em;
+    font-family: 'Lexend Mega', sans-serif;
+    margin-bottom: 50px;
+}
+
+main #about #titleDesc p {
+    line-height: 1.8;
+}
+
+main #about #options {
+    border: 1px solid #00a6cf;
+    padding: 50px;
+    width: 50%;
+    text-align: left;
+    border-radius: 2px;
+}
+
+main #about #options .optionChoice {
+    padding: 20px 10px;
+    width: 45%;
+    float: left;
+}
+
+main #about #options h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+main #about #options .optionChoice p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+main #comments {
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+main #comments h2 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+main #comments .podtitleStyle {
+    margin-top: 20px;
+    color: #00a6cf;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+main #comments #blockComment {
+    display: flex;
+    justify-content: space-between;
+}
+
+main #comments #blockComment .cBlock {
+    margin-top: 50px;
+    height: 300px;
+    width: 30%;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+main #comments #blockComment .cBlock p {
+    font-size: 1em;
+    line-height: 1.6;
+    width: 75%;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main #comments #blockComment .cBlock p span:first-of-type {
+    margin-right: 10px;
+}
+
+main #comments #blockComment .cBlock p span:last-child {
+    margin-left: 10px;
+}
+
+main #otherStyle {
+    width: 65%;
+    /* margin:200px auto; */
+    margin: 0px auto;
+    padding: 100px 0px;
+    display: flex;
+}
+
+main #otherStyle #imageStyle img {
+    width: 60%;
+}
+
+main #otherStyle #otherTextStyle h2 {
+    font-size: 1.3em;
+    color: #00a6cf;
+    margin-bottom: 20px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+main #otherStyle #otherTextStyle h3 {
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+main #otherStyle #otherTextStyle p {
+    width: 90%;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+
+main #otherStyle #otherTextStyle a {
+    font-family: 'Roboto', sans-serif;
+}
+
+main,
+footer {
+    background-color: #000;
+}
+
+
+/* End of Main Body */
+
+
+/* Calendar */
+
+main #podtitleStyle {
+    width: 65%;
+    margin: 0px auto;
+}
+
+main #dates {
+    width: 80%;
+    margin: 0px auto;
+    padding: 100px 0px;
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+main #dates .date {
+    padding-bottom: 20px;
+    width: 30%;
+}
+
+main #dates .date h2 {
+    margin-bottom: 50px;
+    font-size: 2.5em;
+}
+
+main #dates .date .otherStyleobjA {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #dates .date .objOtherStyle {
+    margin-bottom: 30px;
+    margin-right: 50px;
+    width: 80%!important;
+    position: relative;
+    padding-left: 20px;
+}
+
+.line {
+    height: 100%;
+    width: 4px;
+    background-color: #00a6cf;
+    position: absolute;
+    left: 0px;
+}
+
+main #dates .date .objOtherStyle .displayTime {
+    display: flex;
+    margin-top: 15px;
+}
+
+main #dates .date .objOtherStyle .displayTime p {
+    margin-right: 10px;
+}
+
+
+/* End of Calendar */
+
+
+/* locations */
+
+#formFilter {
+    display: flex;
+}
+
+#formFilter #sort {
+    width: 200px;
+    height: 36px;
+    margin-right: 50px;
+    font-size: 1em;
+}
+
+#formFilter #sort option {
+    padding: 20px 0px;
+}
+
+#formFilter #filter #homeView {
+    height: 31px;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+#formFilter #filter #homeView i {
+    padding-top: 6px;
+    font-size: .75em;
+}
+
+#formFilter #filter {
+    width: 200px;
+}
+
+#types {
+    padding: 10px 10px;
+    display: none;
+    background: #fff;
+    color: #333;
+    width: 190px
+}
+
+#types input {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.diplayA {
+    display: block!important;
+}
+
+main #locObj {
+    width: 65%;
+    margin: 0px auto;
+    padding: 100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#locObj .objA {
+    width: 22%;
+    margin-bottom: 50px;
+}
+
+#locObj .objA:nth-child(4) {
+    flex-wrap: after;
+}
+
+#locObj .objA img {
+    width: 100%;
+    height: 40%;
+}
+
+#locObj .objA h2 {
+    min-height: 40px;
+    margin: 20px 0px;
+    font-size: 1.4em;
+}
+
+#locObj .objA .typeA {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#locObj .objA .typeA p {
+    background: #1848cab3;
+    text-align: center;
+    border-radius: 2px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+#locObj .objA p {
+    margin-bottom: 5px;
+    font-size: .9em;
+}
+
+#locObj .objA p:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+#locObj .objA a {
+    border: 1px solid #00a6cf;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    transition: .3s ease;
+    border-radius: 50px;
+}
+
+#locObj .objA a:hover {
+    background-color: #00a6cf;
+}
+
+
+/* End of Locations */
+
+
+/* Contact */
+
+#contactInfoBlock {
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contactInfoBlock .contactInfo {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+#contactInfoBlock .contactInfo h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #41c3ff;
+}
+
+#contactInfoBlock .contactInfo a {
+    font-size: 1.25em;
+}
+
+#contact {
+    margin: 0px auto;
+    padding: 100px 0px;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact #formA {
+    width: 50%;
+}
+
+#contact #formA h2 {
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+#contact #formA form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact #formA form .err {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: .6px;
+}
+
+#contact #formA form input {
+    height: 42px;
+    padding-left: 10px;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    border: 0px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#contact #formA form textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border: 0px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+#contact #formA form input[type="submit"] {
+    background-color: #1848cab3;
+    height: 44px;
+    width: 105%;
+}
+
+
+/* End of Contact */
+
+
+/* Map */
+
+#map {
+    width: 100%;
+    height: 350px;
+    border: 0px;
+    padding-bottom: 100px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+
+/* End of Map */
+
+
+/* Tickets */
+
+#chart {
+    width: 65%;
+    margin: 0px auto;
+    height: 100vh;
+    padding: 100px 0px;
+}
+
+#chart h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#locationA {
+    display: flex;
+    margin: 0px auto;
+}
+
+#locationA .column:nth-of-type(2) {
+    margin: 0px 20px;
+}
+
+#locationA .column .red {
+    display: flex;
+}
+
+
+/* End of Tickets */
+
+
+/* Users */
+
+.userTable {
+    color: #000000;
+}
+
+#result {
+    color: #ffffff;
+}
+
+
+/* End of Users */
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    color: #fafafa;
+    position: relative;
+}
+
+footer #footerHolder {
+    width: 65%;
+    min-height: 350px;
+    margin: 0px auto;
+}
+
+footer #upperFooter {
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #upperFooter h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #6C7A89;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+footer #upperFooter .footerLogo h3 {
+    font-size: 2.8em;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer #upperFooter .footerLogo p {
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Lexend Mega', sans-serif;
+    color: #00a6cf;
+}
+
+footer #upperFooter #footerLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+footer #upperFooter .attractions #footerLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+footer #upperFooter .attractions #footerLinks a {
+    padding: 5px 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+footer #upperFooter .footerContact .info {
+    display: flex;
+    padding: 10px 0px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer #upperFooter .footerContact .info a {
+    color: #fafafa;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p,
+label,
+textarea,
+input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2,
+h3 {
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+
+/* End of Footer */
+
+
+/* Get Tickets */
+
+@media screen and (max-width:1280px) {
+    header #titleStyle {
+        padding-top: 150px;
+    }
+    header #titleStyle,
+    main #about,
+    main #comments,
+    main #otherStyle,
+    footer #footerHolder,
+    main #locObj,
+    main #dates,
+    #contact,
+    footer,
+    main #orders {
+        width: 75%;
+        width: 30%;
+    }
+    header #titleStyle #buttonStyle,
+    main #otherStyle #otherTextStyle #buttonStyle {
+        width: 100%;
+        height: 40%;
+    }
+    main #about #titleDesc h2 {
+        font-size: 3em;
+    }
+    main #orders .objABooked {
+        width: 29%;
+        height: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+
+/* End of Get Tickets */
+
+@media screen and (max-width:1024px) {
+    @keyframes navAnimacija {
+        from {
+            left: -1000px;
+        }
+        to {
+            left: 0px;
+        }
+    }
+    #locObj .objA h2 {
+        min-height: 50px;
+        font-size: 1.2em;
+    }
+    nav #hamburger {
+        display: block;
+    }
+    nav #hamburger i {
+        font-size: 1.5em;
+        margin-top: 3px;
+    }
+    nav #links {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        width: 100%;
+        background: #F2F1EF;
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav #links a {
+        padding: 10px 0px;
+    }
+    .varNavA {
+        display: flex!important;
+    }
+    header {
+        min-height: 50vh;
+    }
+    main #about {
+        flex-wrap: wrap;
+    }
+    main #about #titleDesc {
+        width: 100%;
+    }
+    main #about #options {
+        margin-top: 50px;
+        width: 100%;
+    }
+    footer #upperFooter {
+        flex-direction: column;
+    }
+    footer #upperFooter .footerContact {
+        margin: 50px 0px;
+    }
+    #contactInfoBlock {
+        width: 75%;
+    }
+    #contact #formA {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #creator {
+        flex-wrap: wrap;
+    }
+    #creator #creatorPic {
+        width: 50%;
+    }
+    #creator #titleDescC {
+        width: 100%;
+    }
+    main #dates .date {
+        padding-bottom: 20px;
+        width: 45%;
+    }
+    header #titleStyle #sortText {
+        font-size: 1.2em;
+        color: #fff;
+    }
+    #getTicket #getTicketStyle {
+        width: 50%;
+    }
+    main #comments #blockComment .cBlock p {
+        font-size: .9em;
+        line-height: 1.5;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    header #titleStyle h1 {
+        font-size: 3em;
+    }
+    header #titleStyle p {
+        font-size: 1.1em;
+    }
+    header #titleStyle #buttonStyle,
+    main #otherStyle #otherTextStyle #buttonStyle {
+        padding: 10px;
+    }
+    main #about #titleDesc h2 {
+        font-size: 2.2em;
+    }
+    main #about #titleDesc p {
+        line-height: 1.8;
+        width: 80%;
+    }
+    main #about #options .optionChoice {
+        padding: 10px 5px;
+        width: 100%;
+    }
+    main #comments {
+        width: 95%;
+    }
+    main #comments #blockComment .cBlock p {
+        font-size: .85em;
+    }
+    main #otherStyle #otherTextStyle h3 {
+        font-size: 2.2em;
+        margin-bottom: 50px;
+    }
+    main #otherStyle #otherTextStyle p {
+        width: 90%;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        font-size: .95em;
+    }
+    main #about #options {
+        padding: 30px;
+    }
+    nav #hamburger i {
+        font-size: 1.3em;
+        margin-top: 5px;
+    }
+    #formFilter #sort {
+        width: 150px;
+        margin-right: 20px;
+    }
+    #formFilter #filter #homeView {
+        width: 150px;
+    }
+    #types {
+        width: 140px;
+    }
+    #locObj .objA {
+        width: 45%;
+    }
+    #locObj .objA .typeA {
+        min-height: 60px;
+    }
+    #locObj .objA .typeA p {
+        font-size: .85em;
+        padding: 10px;
+    }
+    #getTicket #getTicketStyle {
+        width: 70%;
+    }
+    #getTicket #getTicketStyle #getUpTicket {
+        margin-bottom: 20px;
+    }
+    #getTicket #getTicketStyle #getUpTicket h2 {
+        font-size: 1.2em;
+    }
+    main #dates .date .objOtherStyle {
+        width: 30%;
+    }
+    #contactInfoBlock {
+        width: 100%;
+    }
+    #contactInfoBlock .contactInfo h3 {
+        font-size: 1.2em;
+    }
+    #contactInfoBlock .contactInfo a {
+        font-size: 1em;
+    }
+    main #dates .date {
+        padding-bottom: 20px;
+        width: 47%;
+    }
+    main #orders .objABooked {
+        width: 45%;
+        height: 30%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    main #dates .date {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    main #podtitleStyle {
+        width: 85%;
+        margin: 0px auto;
+    }
+    header #titleStyle h1 {
+        font-size: 2.7em;
+    }
+    main #comments #blockComment {
+        flex-wrap: wrap;
+    }
+    main #comments #blockComment {
+        width: 75%;
+        margin: 0px auto;
+    }
+    main #comments #blockComment .cBlock {
+        height: 150px;
+        width: 100%;
+    }
+    #locObj .objA h2 {
+        font-size: 1.1em;
+    }
+    #locObj .objA a {
+        padding: 10px 15px;
+        font-size: .9em;
+    }
+    #locObj .objA .typeA p {
+        font-size: .7em;
+        padding: 10px;
+    }
+    #locObj .objA .typeA p:nth-of-type(2) {
+        margin-right: 0px;
+    }
+    header #titleStyle,
+    main #about,
+    main #comments,
+    main #otherStyle,
+    footer #footerHolder,
+    main #locObj,
+    main #dates,
+    #contact,
+    #creator {
+        width: 85%;
+    }
+    #contact #formA form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #creator #titleDescC .infocreator h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    footer #upperFooter .footerLogo h3 {
+        font-size: 2.3em;
+    }
+    #getTicket #getTicketStyle {
+        height: 60%;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    header #titleStyle,
+    main #about,
+    main #comments,
+    main #otherStyle,
+    footer #footerHolder,
+    main #locObj,
+    main #dates,
+    #contact,
+    #creator,
+    main #orders {
+        width: 90%;
+        height: 40%;
+    }
+    #contact #formA form {
+        width: 90%;
+        margin: 0px auto;
+    }
+    nav #logo a {
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #333;
+    }
+    #getTicket #getTicketStyle {
+        width: 85%;
+        height: 70%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #formFilter {
+        flex-wrap: wrap;
+    }
+    #formFilter #sort {
+        width: 160px;
+        margin-bottom: 20px;
+    }
+    #locObj .objA a {
+        padding: 5px;
+    }
+    #locObj .objA .typeA p {
+        font-size: .7em;
+        border-radius: 20px;
+        padding: 10px 5px;
+    }
+}
+
+#getTicket {
+    background: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    position: fixed;
+    top: 0px;
+}
+
+#getTicket #getTicketStyle {
+    width: 25%;
+    height: 50%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+#getTicket #getTicketStyle #getUpTicket {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#getTicket #getTicketStyle #getUpTicket i {
+    font-size: 1.5em;
+}
+
+#formAGetTicket .form-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+#formAGetTicket .form-group label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    height: 36px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 0px;
+    background: rgb(122, 95, 95);
+    color: #fff;
+}
+
+#submitTicket {
+    height: 40px;
+    border: 0px;
+    width: 100%;
+    margin-top: 10px;
+    background: #00a6cf;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* Orders */
+
+main #orders {
+    width: 80%;
+    height: 40%;
+    margin: 0px auto;
+    padding: 3% 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main #orders .emptyA p {
+    line-height: 2;
+}
+
+main #orders .objABooked {
+    width: 22%;
+    margin-bottom: 50px;
+}
+
+main #orders .objABooked img {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 3%;
+}
+
+main #orders .objABooked p:nth-of-type(1) {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #00ff88;
+}
+
+main #orders .objABooked p:nth-of-type(3) {
+    margin-top: 20px;
+    font-weight: 600;
+    padding-left: 1%;
+    color: rgb(255, 136, 0);
+    border-style: solid;
+    border-width: 1px;
+}
+
+@media screen and (max-width:1440px) {
+    header #titleStyle {
+        padding-top: 200px;
+    }
+    header #titleStyle h1 {
+        font-size: 4em;
+    }
+    header #titleStyle p {
+        font-size: 1.3em;
+    }
+    footer #upperFooter .footerLogo p {
+        font-size: .9em;
+        letter-spacing: 1px;
+    }
+    #locObj .objA {
+        width: 30%;
+    }
+    main #dates .date .objOtherStyle {
+        width: 15%;
+    }
+    #getTicket #getTicketStyle {
+        width: 35%;
+    }
+    #creator #titleDescC {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    header #titleStyle {
+        padding-top: 150px;
+    }
+    header #titleStyle,
+    main #about,
+    main #comments,
+    main #otherStyle,
+    footer #footerHolder,
+    main #locObj,
+    main #dates,
+    #contact,
+    footer,
+    main #orders {
+        width: 75%;
+    }
+    header #titleStyle #buttonStyle,
+    main #otherStyle #otherTextStyle #buttonStyle {
+        width: 120px;
+    }
+    main #about #titleDesc h2 {
+        font-size: 3em;
+    }
+    main #orders .objABooked {
+        width: 29%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    @keyframes navAnimacija {
+        from {
+            left: -1000px;
+        }
+        to {
+            left: 0px;
+        }
+    }
+    #locObj .objA h2 {
+        min-height: 50px;
+        font-size: 1.2em;
+    }
+    nav #hamburger {
+        display: block;
+    }
+    nav #hamburger i {
+        font-size: 1.5em;
+        margin-top: 3px;
+    }
+    nav #links {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        width: 100%;
+        background: #F2F1EF;
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav #links a {
+        padding: 10px 0px;
+    }
+    .varNavA {
+        display: flex!important;
+    }
+    header {
+        min-height: 50vh;
+    }
+    main #about {
+        flex-wrap: wrap;
+    }
+    main #about #titleDesc {
+        width: 100%;
+    }
+    main #about #options {
+        margin-top: 50px;
+        width: 100%;
+    }
+    footer #upperFooter {
+        flex-direction: column;
+    }
+    footer #upperFooter .footerContact {
+        margin: 50px 0px;
+    }
+    #contactInfoBlock {
+        width: 75%;
+    }
+    #contact #formA {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #creator {
+        flex-wrap: wrap;
+    }
+    #creator #creatorPic {
+        width: 50%;
+    }
+    #creator #titleDescC {
+        width: 100%;
+    }
+    main #dates .date {
+        padding-bottom: 20px;
+        width: 45%;
+    }
+    header #titleStyle #sortText {
+        font-size: 1.2em;
+        color: #fff;
+    }
+    #getTicket #getTicketStyle {
+        width: 50%;
+    }
+    main #comments #blockComment .cBlock p {
+        font-size: .9em;
+        line-height: 1.5;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    header #titleStyle h1 {
+        font-size: 3em;
+    }
+    header #titleStyle p {
+        font-size: 1.1em;
+    }
+    header #titleStyle #buttonStyle,
+    main #otherStyle #otherTextStyle #buttonStyle {
+        padding: 10px;
+    }
+    main #about #titleDesc h2 {
+        font-size: 2.2em;
+    }
+    main #about #titleDesc p {
+        line-height: 1.8;
+        width: 80%;
+    }
+    main #about #options .optionChoice {
+        padding: 10px 5px;
+        width: 100%;
+    }
+    main #comments {
+        width: 95%;
+    }
+    main #comments #blockComment .cBlock p {
+        font-size: .85em;
+    }
+    main #otherStyle #otherTextStyle h3 {
+        font-size: 2.2em;
+        margin-bottom: 50px;
+    }
+    main #otherStyle #otherTextStyle p {
+        width: 90%;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        font-size: .95em;
+    }
+    main #about #options {
+        padding: 30px;
+    }
+    nav #hamburger i {
+        font-size: 1.3em;
+        margin-top: 5px;
+    }
+    #formFilter #sort {
+        width: 150px;
+        margin-right: 20px;
+    }
+    #formFilter #filter #homeView {
+        width: 150px;
+    }
+    #types {
+        width: 140px;
+    }
+    #locObj .objA {
+        width: 45%;
+    }
+    #locObj .objA .typeA {
+        min-height: 60px;
+    }
+    #locObj .objA .typeA p {
+        font-size: .85em;
+        padding: 10px;
+    }
+    #getTicket #getTicketStyle {
+        width: 70%;
+    }
+    #getTicket #getTicketStyle #getUpTicket {
+        margin-bottom: 20px;
+    }
+    #getTicket #getTicketStyle #getUpTicket h2 {
+        font-size: 1.2em;
+    }
+    main #dates .date .objOtherStyle {
+        width: 30%;
+    }
+    #contactInfoBlock {
+        width: 100%;
+    }
+    #contactInfoBlock .contactInfo h3 {
+        font-size: 1.2em;
+    }
+    #contactInfoBlock .contactInfo a {
+        font-size: 1em;
+    }
+    main #dates .date {
+        padding-bottom: 20px;
+        width: 47%;
+    }
+    main #orders .objABooked {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    main #dates .date {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    main #podtitleStyle {
+        width: 85%;
+        margin: 0px auto;
+    }
+    header #titleStyle h1 {
+        font-size: 2.7em;
+    }
+    main #comments #blockComment {
+        flex-wrap: wrap;
+    }
+    main #comments #blockComment {
+        width: 75%;
+        margin: 0px auto;
+    }
+    main #comments #blockComment .cBlock {
+        height: 150px;
+        width: 100%;
+    }
+    #locObj .objA h2 {
+        font-size: 1.1em;
+    }
+    #locObj .objA a {
+        padding: 10px 15px;
+        font-size: .9em;
+    }
+    #locObj .objA .typeA p {
+        font-size: .7em;
+        padding: 10px;
+    }
+    #locObj .objA .typeA p:nth-of-type(2) {
+        margin-right: 0px;
+    }
+    header #titleStyle,
+    main #about,
+    main #comments,
+    main #otherStyle,
+    footer #footerHolder,
+    main #locObj,
+    main #dates,
+    #contact,
+    #creator {
+        width: 85%;
+    }
+    #contact #formA form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #creator #titleDescC .infocreator h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    footer #upperFooter .footerLogo h3 {
+        font-size: 2.3em;
+    }
+    #getTicket #getTicketStyle {
+        height: 60%;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    header #titleStyle,
+    main #about,
+    main #comments,
+    main #otherStyle,
+    footer #footerHolder,
+    main #locObj,
+    main #dates,
+    #contact,
+    #creator,
+    main #orders {
+        width: 90%;
+    }
+    #contact #formA form {
+        width: 90%;
+        margin: 0px auto;
+    }
+    nav #logo a {
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #333;
+    }
+    #getTicket #getTicketStyle {
+        width: 85%;
+        height: 70%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #formFilter {
+        flex-wrap: wrap;
+    }
+    #formFilter #sort {
+        width: 160px;
+        margin-bottom: 20px;
+    }
+    #locObj .objA a {
+        padding: 5px;
+    }
+    #locObj .objA .typeA p {
+        font-size: .7em;
+        border-radius: 20px;
+        padding: 10px 5px;
+    }
+}

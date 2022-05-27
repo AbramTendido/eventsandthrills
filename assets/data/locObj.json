@@ -1,0 +1,627 @@
+[{
+        "id": 1,
+        "img": {
+            "src": "assets/img/locImg/vgc.jpg",
+            "alt": "Video Game Cafe"
+        },
+        "titleStyle": "Video Game Cafe",
+        "category": [{
+            "indexA": 7,
+            "categoryName": "Video Games"
+        }],
+        "duration": {
+            "time": "120",
+            "printDisplay": "2hr 00min"
+        },
+        "date": {
+            "date": "3.3.2022",
+            "printDisplay": "Mar 3,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "13:00"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "15:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "17:00"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "19:00"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "21:00"
+            },
+            {
+                "indexOtherStyle": 6,
+                "displayTimeA": "23:00"
+            }
+        ]
+
+    },
+    {
+        "id": 2,
+        "img": {
+            "src": "assets/img/locImg/bgc.jpg",
+            "alt": "Board Game Cafe"
+        },
+        "titleStyle": "Board Game Cafe",
+        "category": [
+
+            {
+                "indexA": 1,
+                "categoryName": "Family Fun"
+            }
+        ],
+        "duration": {
+            "time": "210",
+            "printDisplay": "3hr 30min"
+        },
+        "date": {
+            "date": "1.1.2022",
+            "printDisplay": "Jan 1,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "12:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "15:30"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "19:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "22:30"
+            }
+
+        ]
+
+    },
+    {
+        "id": 3,
+        "img": {
+            "src": "assets/img/locImg/shark.jpg",
+            "alt": "Shark Attack!"
+        },
+        "titleStyle": "Shark Attack!",
+        "category": [{
+                "indexA": 5,
+                "categoryName": "Pools and Baths"
+            },
+            {
+                "indexA": 6,
+                "categoryName": "Horror"
+            }
+        ],
+        "duration": {
+            "time": "60",
+            "printDisplay": "1hr 0min"
+        },
+        "date": {
+            "date": "22.2.2022",
+            "printDisplay": "Feb 22,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:30"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "13:30"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "15:30"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "17:30"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "18:30"
+            },
+            {
+                "indexOtherStyle": 6,
+                "displayTimeA": "20:30"
+            },
+            {
+                "indexOtherStyle": 7,
+                "displayTimeA": "21:30"
+            }
+        ]
+
+    },
+    {
+        "id": 4,
+        "img": {
+            "src": "assets/img/locImg/seamonsters.jpg",
+            "alt": "Ride with Sea Monsters!"
+        },
+        "titleStyle": "Ride with Sea Monsters!",
+        "category": [{
+                "indexA": 4,
+                "categoryName": "Thrill Rides"
+            },
+            {
+                "indexA": 5,
+                "categoryName": "Pools and Baths"
+            }
+        ],
+        "duration": {
+            "time": "30",
+            "printDisplay": "0hr 30min"
+        },
+        "date": {
+            "date": "31.1.2022",
+            "printDisplay": "Jan 31 2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "12:00"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "13:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "14:00"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "15:00"
+            },
+            {
+                "indexOtherStyle": 6,
+                "displayTimeA": "16:00"
+            },
+            {
+                "indexOtherStyle": 7,
+                "displayTimeA": "17:00"
+            },
+            {
+                "indexOtherStyle": 8,
+                "displayTimeA": "18:00"
+            },
+            {
+                "indexOtherStyle": 9,
+                "displayTimeA": "19:00"
+            },
+            {
+                "indexOtherStyle": 10,
+                "displayTimeA": "20:00"
+            }
+        ]
+
+    },
+    {
+        "id": 5,
+        "img": {
+            "src": "assets/img/locImg/bbcourt.jpg",
+            "alt": "Basketball Court"
+        },
+        "titleStyle": "Basketball Court",
+        "category": [
+
+            {
+                "indexA": 1,
+                "categoryName": "Family Fun"
+            },
+            {
+                "indexA": 2,
+                "categoryName": "Sports"
+            }
+        ],
+        "duration": {
+            "time": "120",
+            "printDisplay": "2hr 00min"
+        },
+        "date": {
+            "date": "8.12.2021",
+            "printDisplay": "Dec 8,2021"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "12:30"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "14:40"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "16:50"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "19:00"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "21:10"
+            }
+        ]
+
+    },
+    {
+        "id": 6,
+        "img": {
+            "src": "assets/img/locImg/ft.jpg",
+            "alt": "A Fisherman's Tale"
+        },
+        "titleStyle": "A Fisherman's Tale",
+        "category": [{
+                "indexA": 3,
+                "categoryName": "Musical"
+            },
+            {
+                "indexA": 5,
+                "categoryName": "Pools and Baths"
+            }
+        ],
+        "duration": {
+            "time": "90",
+            "printDisplay": "1hr 30min"
+        },
+        "date": {
+            "date": "4.4.2022",
+            "printDisplay": "Apr 4,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "12:30"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "14:00"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "15:30"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "17:00"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "18:30"
+            },
+            {
+                "indexOtherStyle": 6,
+                "displayTimeA": "20:00"
+            },
+            {
+                "indexOtherStyle": 7,
+                "displayTimeA": "21:30"
+            }
+        ]
+
+    },
+    {
+        "id": 7,
+        "img": {
+            "src": "assets/img/locImg/knight.jpg",
+            "alt": "The Last Knight"
+        },
+        "titleStyle": "The Last Knight",
+        "category": [{
+            "indexA": 8,
+            "categoryName": "Theatre"
+        }],
+        "duration": {
+            "time": "110",
+            "printDisplay": "1hr 50min"
+        },
+        "date": {
+            "date": "1.1.2022",
+            "printDisplay": "Jan 1,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "14:00"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "16:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "19:00"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "22:00"
+            }
+
+        ]
+
+    },
+    {
+        "id": 8,
+        "img": {
+            "src": "assets/img/locImg/hug.jpg",
+            "alt": "Happiness is a warm Hug"
+        },
+        "titleStyle": "Happiness is a warm Hug",
+        "category": [{
+                "indexA": 8,
+                "categoryName": "Theatre"
+            },
+            {
+                "indexA": 3,
+                "categoryName": "Musical"
+            }
+        ],
+        "duration": {
+            "time": "100",
+            "printDisplay": "1hr 40min"
+        },
+        "date": {
+            "date": "1.1.2022",
+            "printDisplay": "Jan 1,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:30"
+            },
+            {
+                "indexOtherStyle": 1,
+                "displayTimeA": "14:30"
+            },
+            {
+                "indexOtherStyle": 1,
+                "displayTimeA": "17:30"
+            },
+            {
+                "indexOtherStyle": 1,
+                "displayTimeA": "21:30"
+            }
+        ]
+
+    },
+    {
+        "id": 9,
+        "img": {
+            "src": "assets/img/locImg/pns.jpg",
+            "alt": "Poolslides"
+        },
+        "titleStyle": "Poolslides",
+        "category": [{
+                "indexA": 1,
+                "categoryName": "Family Fun"
+            },
+            {
+                "indexA": 5,
+                "categoryName": "Pools and Baths"
+            }
+        ],
+        "duration": {
+            "time": "180",
+            "printDisplay": "3hr 00min"
+        },
+        "date": {
+            "date": "7.2.2022",
+            "printDisplay": "Feb 7,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "14:00"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "17:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "20:00"
+            }
+        ]
+
+    },
+    {
+        "id": 10,
+        "img": {
+            "src": "assets/img/locImg/football.jpg",
+            "alt": "Football Field"
+        },
+        "titleStyle": "Football Field",
+        "category": [{
+                "indexA": 1,
+                "categoryName": "Family Fun"
+            },
+            {
+                "indexA": 2,
+                "categoryName": "Sports"
+            }
+        ],
+        "duration": {
+            "time": "120",
+            "printDisplay": "1hr 30min"
+        },
+        "date": {
+            "date": "10.1.2022",
+            "printDisplay": "Jan 10,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "12:30"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "14:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "15:30"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "17:00"
+            },
+            {
+                "indexOtherStyle": 6,
+                "displayTimeA": "18:30"
+            }
+        ]
+
+    },
+    {
+        "id": 11,
+        "img": {
+            "src": "assets/img/locImg/infCoaster.png",
+            "alt": "Infernal's Coaster"
+        },
+        "titleStyle": "Infernal's Coaster",
+        "category": [{
+                "indexA": 4,
+                "categoryName": "Thrill Rides"
+            },
+            {
+                "indexA": 6,
+                "categoryName": "Horror"
+            }
+        ],
+        "duration": {
+            "time": "30",
+            "printDisplay": "0hr 30min"
+        },
+        "date": {
+            "date": "10.1.2022",
+            "printDisplay": "Jan 10,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "12:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "12:30"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "13:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "14:30"
+            },
+            {
+                "indexOtherStyle": 5,
+                "displayTimeA": "15:00"
+            },
+            {
+                "indexOtherStyle": 6,
+                "displayTimeA": "15:30"
+            },
+            {
+                "indexOtherStyle": 7,
+                "displayTimeA": "16:00"
+            },
+            {
+                "indexOtherStyle": 8,
+                "displayTimeA": "16:30"
+            },
+            {
+                "indexOtherStyle": 9,
+                "displayTimeA": "17:00"
+            },
+            {
+                "indexOtherStyle": 10,
+                "displayTimeA": "17:30"
+            },
+            {
+                "indexOtherStyle": 11,
+                "displayTimeA": "18:00"
+            },
+            {
+                "indexOtherStyle": 12,
+                "displayTimeA": "18:30"
+            },
+            {
+                "indexOtherStyle": 13,
+                "displayTimeA": "19:00"
+            },
+            {
+                "indexOtherStyle": 14,
+                "displayTimeA": "19:30"
+            }
+        ]
+
+    },
+    {
+        "id": 12,
+        "img": {
+            "src": "assets/img/locImg/vrBattle.png",
+            "alt": "Virtual Battlefield"
+        },
+        "titleStyle": "Virtual Battlefield",
+        "category": [{
+                "indexA": 7,
+                "categoryName": "Video Games"
+            },
+            {
+                "indexA": 2,
+                "categoryName": "Sports"
+            }
+        ],
+        "duration": {
+            "time": "180",
+            "printDisplay": "3hr 00min"
+        },
+        "date": {
+            "date": "30.4.2022",
+            "printDisplay": "Apr 30,2022"
+        },
+        "otherStyle": [{
+                "indexOtherStyle": 1,
+                "displayTimeA": "11:00"
+            },
+            {
+                "indexOtherStyle": 2,
+                "displayTimeA": "14:30"
+            },
+            {
+                "indexOtherStyle": 3,
+                "displayTimeA": "18:00"
+            },
+            {
+                "indexOtherStyle": 4,
+                "displayTimeA": "21:30"
+            }
+        ]
+
+    }
+
+
+]
